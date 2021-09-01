@@ -1,0 +1,17 @@
+<div class="form">
+    <div class="input1">
+        <label for="input1">Input Field One : </label>
+        <input type="text" [(ngModel)]="input1" id="input1" name="input1">
+        <!-- {{input1}} -->
+    </div>
+    <br>
+    <div class="input2">
+        <label for="input2">Input Field Two : </label>
+        <input type="text" [(ngModel)]="input2" id="input2" name="input2">
+        <!-- {{input2}} -->
+    </div>
+    <br>
+    <div>
+        <button class="btn" (click)="onSubmit()">Submit</button>
+    </div>
+</div>
